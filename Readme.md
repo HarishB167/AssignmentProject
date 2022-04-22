@@ -1,18 +1,18 @@
 ## INTRODUCTION
 
-This is a backend for project for the Assignment Project.
-for frontend part see :
+This is a backend for project for the Assignment Project.<br/>
+for frontend part see : https://github.com/HarishB167/AssignmentProjectFrontend
 
-Requirments are mentioned in Pipfile
+Requirements are mentioned in Pipfile
 
 ## Configuration
 
-At root folder .env file is required with following key-values
+At root folder .env file is required with following key-values<br/>
 SECRET_KEY = '<secret-key>'
 
 ## Installation
 
-Following command will install dependencies from Pipfile.
+Following command will install dependencies from Pipfile.<br/>
 pipenv install
 
 ## Running
