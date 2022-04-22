@@ -25,6 +25,7 @@ def product_list(request):
         serializer = ProductSerializer(queryset, many=True)
         return Response(serializer.data)
     elif request.method == 'POST':
+        print(request.data)
         serializer = ProductSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         serializer.save()
